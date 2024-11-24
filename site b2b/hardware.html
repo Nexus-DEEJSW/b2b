@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Empresa - Hardware</title>
+    <link rel="stylesheet" href="css/hardware.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e Menu -->
+    <header>
+        <div class="top-bar">
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="project.html">Project</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                </ul>
+                <input type="text" placeholder="Pesquisar...">
+                <a href="login.html">
+                    <img src="img/login.png" alt="login">
+                </a>
+            </nav>
+        </div>
+        <div class="banner">
+            <h1>WICCA & ET</h1>
+            <p>Transformando o futuro com soluções de Hardware</p>
+        </div>
+    </header>
+
+    <!-- Seção de Registro de Hardware -->
+    <section class="hardware-registration">
+        <h2>Cadastro de Hardware</h2>
+        <form>
+            <label for="product-name">Nome do Produto:</label>
+            <input type="text" id="product-name" name="product-name" placeholder="Digite o nome do produto">
+            
+            <label for="serial-number">Número de Série:</label>
+            <input type="text" id="serial-number" name="serial-number" placeholder="Digite o número de série">
+            
+            <label for="model">Modelo:</label>
+            <input type="text" id="model" name="model" placeholder="Digite o modelo do produto">
+            
+            <label for="description">Descrição:</label>
+            <textarea id="description" name="description" rows="4" placeholder="Digite uma breve descrição"></textarea>
+            
+            <button type="submit" class="cta-btn">Cadastrar</button>
+        </form>
+    </section>
+
+    <!-- Seção de Produtos Cadastrados -->
+    <section class="registered-hardware">
+        <h2>Hardware Registrados</h2>
+        <div class="hardware-item">
+            <h3>Produto: Servidor X123</h3>
+            <p>Número de Série: ABC123456</p>
+            <p>Modelo: X123</p>
+            <p>Descrição: Servidor de alta performance para ambientes corporativos.</p>
+        </div>
+        <div class="hardware-item">
+            <h3>Produto: Switch Gigabit</h3>
+            <p>Número de Série: DEF987654</p>
+            <p>Modelo: SG2024</p>
+            <p>Descrição: Switch gerenciável com 24 portas Gigabit Ethernet.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section contact">
+                <h4>Contato</h4>
+                <p>contato@suaempresa.com</p>
+                <p>(11) 9 1234-5678</p>
+            </div>
+            <div class="footer-section about">
+                <h3>Sua Empresa</h3>
+                <p>Transformando ideias em soluções digitais para o sucesso do seu negócio.</p>
+                <p>© 2024 WICCA</p>
+            </div>
+            <div class="footer-section social">
+                <h4>Siga-nos</h4>
+                <a href="#"><img src="img/face.png" alt="Facebook"></a>
+                <a href="#"><img src="img/linke.png"alt="LinkedIn"></a>
+                <a href="#"><img src="img/insta.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

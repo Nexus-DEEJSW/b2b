@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Clientes</title>
+    <link rel="stylesheet" href="css/feedback.css">
+</head>
+
+<!-- Cabeçalho e Menu -->
+<header>
+    <div class="top-bar">
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="about.html">Sobre</a></li>
+            </ul>
+            <input type="text" placeholder="Pesquisar...">
+            <a href="login.html">
+                <img src="img/login.png" alt="login">
+            </a>
+        </nav>
+    </header>
+
+    <body>
+        <div class="h1">
+            <h1>DEIXE O SEU FEEDBACK AQUI SOBRE NOSSA EMPRESA E PRODUTOS!</h1>
+        </div>
+
+        <form class="form" id="myForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <script src="feedback.js"></script>
+        <br><br>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section contact">
+                    <h4>Contato</h4>
+                    <p>contato@suaempresa.com</p>
+                    <p>(11) 9 1234-5678</p>
+                </div>
+                <div class="footer-section about">
+                    <h3>WICCA</h3>
+                    <p>Transformando ideias em soluções digitais para o sucesso do seu negócio.</p>
+                    <p>© 2024 WICCA</p>
+                </div>
+                <div class="footer-section social">
+                    <h4>Siga-nos</h4>
+                    <a href="#"><img src="img/face.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/linke.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="img/insta.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>

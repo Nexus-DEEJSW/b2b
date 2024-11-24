@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="welcome-section">
+            <h1>Bem-vindo à WICCA</h1>
+            <p>Uma fábrica de software dedicada a transformar negócios com soluções digitais seguras e inovadoras. Com foco em produtividade e crescimento, nossa equipe cria tecnologias que protegem, otimizam e potencializam empresas no mercado digital.</p>
+            <div class="social-icons">
+                <a href="#"><img src="img/face.png" alt="Facebook"></a>
+                <a href="#"><img src="img/linke.png" alt="Linkedin"></a>
+                <a href="#"><img src="img/insta.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="login-section">
+            <h2>Login</h2>
+            <form action="#">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <button type="submit" class="login-btn" onclick="window.location.href='home.html'">Sign in now</button>
+            
+                <a href="#" class="forgot-password">Lost your password?</a>
+                
+                <p class="terms">By clicking on "Sign in now" you agree to <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

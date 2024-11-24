@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url('/img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px 0;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+nav{
+    background-color: #2d3e50;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav img{
+    width: 30px;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 870px;
+    width: 200px;
+}
+
+
+
+
+body {
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Garante que o contêiner ocupe toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+    background-color: #f0f0f0; /* Cor de fundo da página (opcional) */
+}
+
+form {
+    background-color: #2d3e50;
+    padding: 50px;
+    margin: 10px;
+    margin-left: 220px;
+    border-radius: 10px;
+    width: 1100px; /* Defina uma largura para ajudar na centralização */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra (opcional) */
+}
+
+.h1 {
+    text-align: center;
+    margin-left: 55px;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    color: #ddd;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.2px;
+}
+
+input, textarea {
+    width: 1000px;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffcc00;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+footer {
+    background-color: #2d3e50;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footer-section {
+    max-width: 200px;
+}
+.footer-section.about {
+    text-align: center;
+}
+.footer-section P {
+    margin-bottom: 10px;
+}
+.footer-section.about p:first-of-type {
+    white-space: nowrap;
+    text-align: left; 
+    margin-left: -160px; 
+}
+.footer-section h3, .footer-section h4 {
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+.footer-section a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #ffcc00;
+}
+
+.footer-section.social a img {
+    width: 24px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
